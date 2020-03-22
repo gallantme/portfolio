@@ -130,10 +130,8 @@ div.profile-links{
     align-items: center;
     margin-left: 335px;
 }
-#multi-item-example{
-    margin-left: 300px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: right;
+.card{
+    margin-left: 350px;
+    width: 20em;
+    height: 20em;
 }
