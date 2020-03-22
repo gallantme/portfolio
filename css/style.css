@@ -1,0 +1,139 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+}
+.side-nav {
+    padding: 0;
+    margin: 0;
+    font-family: Saira Condensed, Lato, sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(70, 70, 190);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px 5%;
+    width: 300px;
+    height: 100vh;
+    justify-content: center;
+    box-sizing: border-box;
+    z-index: 400;
+    position: fixed;
+}
+.nav-links{
+    color: white;
+    justify-items: center;
+}
+.nav-image{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+ul{
+    list-style: none;
+    line-height: 50px;
+}
+.home-container{
+    border: 1px solid white;
+    height: 100vh;
+    width: 100vw;
+    text-align: left;
+}
+.profile-container{
+    border: 1px solid rgb(245, 0, 245);
+    height: 100vh;
+    width: 100vw;
+    text-align: left;
+    background-color: rgb(245, 0, 245);
+}
+.project-container{
+    border: 1px solid rgb(70, 190, 70);
+    height: 100vh;
+    width: 100vw;
+    text-align: left;
+    background-color: rgb(70, 190, 70);
+}
+.contact-container{
+    height: 100vh;
+    width: 100vw;
+    text-align: left;
+    background-image: linear-gradient(90deg, lightblue, purple)
+}
+h1 {
+    color: #114b7a;
+    margin-left: 350px;
+    font-size: 2rem;
+    align: left;
+    text-align: justify;
+    font-family: Helvetica, Arial, sans-serif;
+    padding:  100px 0px 0px 0px;
+    position: relative;
+}
+  h2{
+    color: #114b7a;
+    margin-left: 350px;
+    font-size: 1.5rem;
+    font-family: Helvetica, Arial, sans-serif;
+    align: left;
+    text-align: justify;
+    width: 40%;
+    line-height: 2.5;
+    margin-bottom: 40px;
+    letter-spacing: .02em;
+    position: relative;
+}
+h3{
+    color: white;
+    margin-left: 350px;
+    font-size: 1.5rem;
+    font-family: Helvetica, Arial, sans-serif;
+    align: left;
+    text-align: justify;
+    width: 40%;
+    line-height: 2.5;
+    letter-spacing: .02em;
+    padding:  200px 0px 0px 0px;
+}
+h4{
+    color: white;
+    margin-left: 350px;
+    
+}
+a.active, nav ul li a:hover{
+    border-bottom: 5px solid black;
+    text-decoration: none !important;
+    color: white;
+}
+.text-black{
+    color: black !important;
+}
+.text-white{
+    color: white !important;
+    margin-left: 350px;
+}
+.ml-3{
+    align: left;
+    justify-items: content;
+    margin-left: 350px;
+}
+.btn-success{
+    background-color: black !important;
+}
+.profile-links{
+    display: flex;
+    flex-direction: right;
+    padding: 0px 0px 200px 0px;
+    margin-bottom: 40px;
+}
+div.profile-links{
+    align-items: center;
+    margin-left: 335px;
+}
+#multi-item-example{
+    margin-left: 300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: right;
+}
